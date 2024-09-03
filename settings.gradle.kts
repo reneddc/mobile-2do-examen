@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Franky App"
 include(":app")
+include(":data")
  
