@@ -36,5 +36,9 @@ gradlePlugin {
             id = "ucb.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
+        register("jvmLibrary") {
+            id = "ucb.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
     }
 }

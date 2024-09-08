@@ -27,4 +27,4 @@ include(":framework")
 include(":core")
 include(":core:network")
 include(":core:ui")
- 
+include(":core:model")
