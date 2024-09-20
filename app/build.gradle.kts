@@ -72,4 +72,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.coil)
     implementation(project(":core:network"))
+    implementation(project(":data"))
 }

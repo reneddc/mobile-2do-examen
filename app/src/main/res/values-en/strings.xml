@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Franky App</string>
     <string name="title_activity_git_ui">GitUiActivity</string>
-    <string name="github_ui_title">Ingrese el github user</string>
-    <string name="github_ui_button">Buscar</string>
+    <string name="github_ui_title">enter your github account</string>
+    <string name="github_ui_button">Find</string>
     <string name="title_activity_vocabulary">VocabularyActivity</string>
-    <string name="title_activity_github_chip">GithubChipActivity</string>
 </resources>
