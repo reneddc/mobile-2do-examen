@@ -36,7 +36,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.calyrsoft.frankyapp.ui.theme.FrankyAppTheme
+import com.calyrsoft.frankyapp.ui.theme.AppTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FrankyAppTheme {
+            AppTheme {
                 SnackbarExample()
             }
         }

@@ -33,7 +33,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.calyr.data.VocabularyRepository
-import com.calyrsoft.frankyapp.ui.theme.FrankyAppTheme
+import com.calyrsoft.frankyapp.ui.theme.AppTheme
 import kotlinx.coroutines.launch
 
 class VocabularyActivity : ComponentActivity() {
@@ -41,7 +41,7 @@ class VocabularyActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FrankyAppTheme {
+            AppTheme {
                 //Vocabulary()
                 VocabularySnackBar()
             }

@@ -31,7 +31,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.calyr.network.GithubRemoteDataSource
 import com.calyr.network.RetrofitBuilder
-import com.calyrsoft.frankyapp.ui.theme.FrankyAppTheme
+import com.calyrsoft.frankyapp.ui.theme.AppTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -52,7 +52,7 @@ class GitUiActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FrankyAppTheme {
+            AppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     GitUi( modifier = Modifier.padding(innerPadding), context = context)
                 }

@@ -5,4 +5,11 @@
     <string name="github_ui_title">enter your github account</string>
     <string name="github_ui_button">Find</string>
     <string name="title_activity_vocabulary">VocabularyActivity</string>
+    <string name="btn_yellow">Yellow</string>
+    <string name="btn_blue">Blue</string>
+    <string name="business_titile">Mi aplicación de Negocios</string>
+    <string name="title_activity_business">Business</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_github_chip">ChipItem</string>
+    <string name="title_activity_background_color">BackgroundColor</string>
 </resources>
